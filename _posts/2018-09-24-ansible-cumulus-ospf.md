@@ -152,9 +152,9 @@ Ansible所管理的主機名稱（必須在/etc/hosts或DNS server找得到對�
 ### *ping*測試  
 * 操作Leaf1  
 ```ping 10.1.1.22```  
-![](../../../assets/cumulus/leaf1_bridge.png)  
+![](../../../assets/cumulus/leaf1_bridge200.png)  
 * 操作Leaf2  
 ```ping 10.1.1.11```  
-![](../../../assets/cumulus/leaf2_bridge.png)  
+![](../../../assets/cumulus/leaf2_bridge100.png)  
 
 
