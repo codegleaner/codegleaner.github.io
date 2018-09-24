@@ -15,7 +15,7 @@ title: "使用Ansible對Cumulus Linux設定OSPF路由協定"
 本篇介紹的方法會透過**ManagementStation**上的Ansible，將參數化的設定檔同時傳入**Leaf1**和**Leaf2**，並啟用路由相關服務。如此，當需要添增或移除Leaf時，網管人員只需要實際操作拔線、接線、開機，而不再需要個別登入設定。
 
 ## 環境準備
-* Cumulus VX - **Leaf1**、**Leaf2**、**DHCP Server**的NOS (Networking Operating System)，請到官網下載OVA檔。
+* Cumulus VX - **Leaf1**、**Leaf2**、**DHCP Server**的NOS (Network Operating System)，請到官網下載OVA檔。
 * CentOS 7 - **ManagementStation**的作業系統，請到官網下載ISO檔，再至VirtualBox新增VM，至少保留一個Network Adapter為NAT或Bridged Adapter，匯出OVA檔。
 * Oracle VM VirtualBox - 匯入**Leaf1**、**Leaf2**、**DHCP Server**、**ManagementStation**的OVA檔。
 * GNS3 - 網路模擬器，使用VirtualBox中的VM作為專案新增設備時的作業系統範本。
