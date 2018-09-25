@@ -113,7 +113,7 @@ Cumulus VX 預設已啟動SSH server，並監聽22 port
 ![](../../../assets/cumulus/ms_ansible_cfg.png)  
 * hosts 
 Ansible所管理的主機名稱（必須在/etc/hosts或DNS server找得到對應的IP） 
-  ![](../../../assets/cumulus/ms_hosts.png)  
+![](../../../assets/cumulus/ms_hosts.png)  
 * playbook.yml  
 ![](../../../assets/cumulus/ms_playbook.png)  
 * playbook.yml為ospf角色指定以下行為：  
