@@ -73,6 +73,15 @@ sudo kubectl edit cm coredns -n kube-system
 ```
 ![](../../../assets/gitlab-runner/9.png)
 
+發現它的 DNS resolver 預設會 forward 到本地機器的 /etc/resolv.conf，所以我們到本地 /etc/resolv.conf 裡面加上```nameserver 8.8.8.8```，而不在 configmap 修改。
+為了清掉 CoreDNS cache，我們把 coredns pod 刪掉，隨即 coredns deployment 會自動重啟新的 coredns pod。
+
+```
+kubectl get pods -n kube-system -o name | grep coredns | xargs kubectl delete -n kube-system
+```
+
+進去 debug-runner pod 測試看看。
+
 ```
 nslookup charts.gitlab.io
 ```
