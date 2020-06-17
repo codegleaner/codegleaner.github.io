@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing GitLab Runner by GitLab GUI"
+title: "Error: failed to download \"runner/gitlab-runner\""
 tags: troubleshooting
 ---
 
