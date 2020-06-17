@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "使用Ansible對Cumulus Linux設定OSPF路由協定"
+tags: network
 ---
 ![](../../../assets/cumulus/objective_topology.png)
 

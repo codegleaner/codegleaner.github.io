@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Troubleshooting of Installing GitLab Runner by GitLab GUI"
+title: "Installing GitLab Runner by GitLab GUI"
+tags: troubleshooting
 ---
 
 GitLab GUI 提供很多工具，讓我們點一下就自動裝到K8s。

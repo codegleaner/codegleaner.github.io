@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "併回 master branch"
+tags: version_control
 ---
 
 建立master branch，與a、b、c commit
