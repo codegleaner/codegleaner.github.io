@@ -1,14 +1,20 @@
 ---
 layout: default
 ---
-<div class="post">
-<h1>Tag: {{ page.tag }}</h1>
-<ul>
-{% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  </li>
-{% endfor %}
-</ul>
-</div>
-<hr>
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Tag: {{ page.tag | escape }}</h1>
+  </header>
+  <hr>
+  <div class="post-content">
+    <ul>
+    {% for post in site.tags[page.tag] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+        {{ post.description }}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+
+</article>

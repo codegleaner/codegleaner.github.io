@@ -20,6 +20,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codegleaner.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: YuTzuWu
 github_username:  derailment
+linkedin_username: yutzuwu
+facebook_username: yutzuwu
+
 
 # Build settings
 markdown: kramdown
