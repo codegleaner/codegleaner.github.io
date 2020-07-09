@@ -4,7 +4,9 @@ title: "GitLab Runner Horizontal Pod Autoscaler"
 tags: devops k8s_auto_scaling
 ---
 
-![](../../../assets/auto_scaling/gr_9.png)
+{:refdef: style="text-align: center;"}
+![](../../../assets/auto_scaling/gr_0.png){:height="260px" width="156px"}
+{: refdef}
 
 ## 問題描述
 當多人在短時間內觸發大量 pipeline 時，就會有的 pipeline 顯示 pending，原因是什麼？ 一個 gitlab-runner 有最大可接下的 job 數目限制，例如在 config.toml 設 ``concurrent = 10``，當同時有 11 pipeline 要執行，必然有 1 pipeline pending。
