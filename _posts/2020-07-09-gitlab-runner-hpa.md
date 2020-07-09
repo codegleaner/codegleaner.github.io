@@ -5,7 +5,7 @@ tags: devops k8s_auto_scaling
 ---
 
 {:refdef: style="text-align: center;"}
-![](../../../assets/auto_scaling/gr_0.png){:height="260px" width="156px"}
+![](../../../assets/auto_scaling/gr_.png){:height="260px" width="156px"}
 {: refdef}
 
 ## 問題描述
