@@ -117,7 +117,7 @@ kubectl get --raw "/apis/custom.metrics.k8s.io/v1beta1/namespaces/<YOUR_NAMESPAC
 
 ## 實驗結果
 
-I. 同時觸發 12 個 jobs，（可以設每個 job ```sleep 900```，我們要多一點時間觀察 XD）
+I. 同時觸發 12 個 jobs（可以設每個 job ```sleep 900```，我們要多一點時間觀察 XD）
 
 II. 觀察 hpa
 
